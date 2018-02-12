@@ -19,17 +19,33 @@ article.tweet{
 header, footer{
     height: 20px;
     width: inherit;
-    margin-left: 100px;
-    padding-top: 15px;
+    margin: 15px;
+
 }
 div.content{
-    padding: 15px;
+    padding-left: 100px;
+    padding-top: 50px;
+}
+img#contentimage{
+    height: 250px;
+    width: 270px;
 }
 div.profile{
-  padding: 15px;
   float: left;
 }
-img{
+img#profilepic{
   height: 70px;
   width: 70px;
+}
+
+b{
+    padding-right: 5px;
+    padding-left: 10px;
+}
+div.tweet{
+    padding-left: 80px;
+}
+div.button{
+    float: left;
+    padding-left: 85px;
 }
